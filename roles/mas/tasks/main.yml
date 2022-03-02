@@ -1,0 +1,5 @@
+- name: install applications from app store
+  community.general.mas:
+    id:
+      - 1352778147 # Bitwarden
+      - 441258766  # Magnet

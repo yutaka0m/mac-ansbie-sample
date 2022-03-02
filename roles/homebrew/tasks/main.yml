@@ -1,0 +1,24 @@
+- name: install homebrew packages
+  community.general.homebrew:
+    update_homebrew: yes
+    name:
+      - ansible
+      - awscli
+      - bitwarden-cli
+      - grpcurl
+      - imagemagick
+      - jq
+      - mariadb
+      - mas
+      - npm
+      - pipenv
+      - pre-commit
+      - pyenv
+      - terraform-docs
+      - tfenv
+      - tflint
+      - tree
+      - watch
+      - yamllint
+      - zplug
+      - zsh

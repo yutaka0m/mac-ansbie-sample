@@ -1,0 +1,10 @@
+---
+- name: set up mac
+  hosts: 127.0.0.1
+  connection: local
+
+  roles:
+    - homebrew
+    - homebrew_cask
+    - mac_os
+    - mas
